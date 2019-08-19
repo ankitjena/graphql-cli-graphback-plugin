@@ -24,11 +24,6 @@ The command will guide you through a series of questions - choosing a template, 
 graphql backend init <project name>
 ```
 
-You can also provide a custom template of your choice with `--templateUrl` option.
-```
-graphql backend init <project name> ---templateUrl=https://github.com/aerogear/modern-appdev-workshop
-```
-
 ### `graphql backend generate`
 The command will generate schema and resolvers, with CRUD operations according to your GraphQL data model. The schema and resolvers are in the widely accepted apollo format.
 
