@@ -1,6 +1,6 @@
 {
   "name": "graphql-cli-graphback-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auto generate resolvers on top of the graphql and database of your choice",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -49,6 +49,7 @@
     "parse-github-url": "1.0.2",
     "pg": "7.12.1",
     "request": "2.88.0",
+    "sqlite3": "4.0.1",
     "tar": "4.4.10",
     "tmp": "0.1.0",
     "yargs": "13.3.0"
