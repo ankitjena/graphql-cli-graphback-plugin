@@ -15,13 +15,13 @@ Install the plugin using
 npm i -g graphql-cli-graphback-plugin
 ```
 ## Usage
-Installing the plugin exposes the [commands](https://graphback.dev/docs/commands) of Graphback. All the commands are prefixed with `backend`. For example `graphql backend init` is the equivalent of `graphback init`.
+Installing the plugin exposes the [commands](https://graphback.dev/docs/commands) of Graphback. All the commands are prefixed with `backend-`. For example `graphql backend-init` is the equivalent of `graphback init`.
 
 ### `graphql backend-init`
 The command will guide you through a series of questions - choosing a template, bootstraping model, selecting preferred database - and setup your project for you.
 
 ```
-graphql backend init <project name>
+graphql backend-init <project name>
 ```
 
 ### `graphql backend-generate`

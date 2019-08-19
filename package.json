@@ -1,6 +1,6 @@
 {
   "name": "graphql-cli-graphback-plugin",
-  "version": "0.1.4",
+  "version": "0.2.1",
   "description": "Auto generate resolvers on top of the graphql and database of your choice",
   "homepage": "https://github.com/ankitjena/graphql-cli-graphback-plugin",
   "main": "dist/index.js",
