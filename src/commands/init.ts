@@ -3,7 +3,7 @@ import { init } from '../helpers/init'
 
 type Params = { name?: string, templateName?: string, templateUrl: string }
 
-export const command = 'server-init <name>'
+export const command = 'backend init <name>'
 
 export const desc = 'Create project'
 

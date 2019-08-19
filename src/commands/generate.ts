@@ -1,6 +1,6 @@
 import { generate } from '../helpers/generate'
 
-export const command = 'generate'
+export const command = 'backend generate'
 
 export const desc = 'Generate schema and resolvers'
 
