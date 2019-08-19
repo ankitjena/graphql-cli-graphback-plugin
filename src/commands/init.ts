@@ -3,7 +3,7 @@ import { init } from '../helpers/init'
 
 type Params = { name?: string, templateName?: string, templateUrl: string }
 
-export const command = 'backend init <name>'
+export const command = 'backend-init <name>'
 
 export const desc = 'Create project'
 
@@ -23,6 +23,6 @@ export const builder = (args: yargs.Argv) => {
   })
 }
 
-export async function handler({ name, templateName, templateUrl }: Params) {
+export async function handler(context, {name, templateName, templateUrl}) {
   await init(name, templateName, templateUrl);
 }
