@@ -29,7 +29,7 @@
     "ava": "2.3.0",
     "lint-staged": "9.2.5",
     "rimraf": "3.0.0",
-    "ts-node": "8.3.0",
+    "ts-node": "8.10.2",
     "tslint": "5.19.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-microsoft-contrib": "6.2.0",
